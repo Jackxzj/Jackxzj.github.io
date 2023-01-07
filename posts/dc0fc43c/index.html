@@ -16,22 +16,25 @@
   <meta name="author" content="XZJ">
   <meta name="keywords" content="学习 生活 linux">
   
-    <meta name="description" content="Hello World 此博客创立于2023.1.6 加油～">
+    <meta name="description" content="Qemu简易教程(termux版本)Qemu是什么QEMU是一套由法布里斯·贝拉(Fabrice Bellard)所编写的以GPL许可证分发源码的模拟处理器软件，在GNU&#x2F;Linux平台上使用广泛。  Qemu有什么用让你在可以在任何平台上运行Qemu(废话)  Qemu的安装 第一步   安装termux pkg install root-repo unstable-repo pkg">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://conquerorlei.github.io/posts/4a17b156/index.html">
+<meta property="og:title" content="Qemu简易教程">
+<meta property="og:url" content="https://conquerorlei.github.io/posts/dc0fc43c/index.html">
 <meta property="og:site_name" content="XZJ的Blog">
-<meta property="og:description" content="Hello World 此博客创立于2023.1.6 加油～">
+<meta property="og:description" content="Qemu简易教程(termux版本)Qemu是什么QEMU是一套由法布里斯·贝拉(Fabrice Bellard)所编写的以GPL许可证分发源码的模拟处理器软件，在GNU&#x2F;Linux平台上使用广泛。  Qemu有什么用让你在可以在任何平台上运行Qemu(废话)  Qemu的安装 第一步   安装termux pkg install root-repo unstable-repo pkg">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-01-06T10:54:25.639Z">
-<meta property="article:modified_time" content="2023-01-07T03:36:14.269Z">
+<meta property="og:image" content="https://www.helloimg.com/images/2022/08/03/Z0mR9X.jpg">
+<meta property="og:image" content="https://www.helloimg.com/images/2022/08/03/Z0mGx9.jpg">
+<meta property="article:published_time" content="2022-08-03T08:46:08.000Z">
+<meta property="article:modified_time" content="2023-01-07T06:20:20.509Z">
 <meta property="article:author" content="XZJ">
-<meta property="article:tag" content="学习 生活 linux">
+<meta property="article:tag" content="教程">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.helloimg.com/images/2022/08/03/Z0mR9X.jpg">
   
   
   
-  <title>Hello World - XZJ的Blog</title>
+  <title>Qemu简易教程 - XZJ的Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,7 +205,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="Qemu简易教程"></span>
           
         </div>
 
@@ -213,8 +216,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-01-06 18:54" pubdate>
-          2023年1月6日 晚上
+        <time datetime="2022-08-03 16:46" pubdate>
+          2022年8月3日 下午
         </time>
       </span>
     
@@ -225,7 +228,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          27 字
+          751 字
         
       </span>
     
@@ -236,7 +239,7 @@
         
         
         
-          1 分钟
+          7 分钟
         
       </span>
     
@@ -274,13 +277,65 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">Qemu简易教程</h1>
             
             
               <div class="markdown-body">
                 
-                <p><em><strong>Hello World 此博客创立于2023.1.6 加油～</strong></em></p>
-
+                <h1 id="Qemu简易教程-termux版本"><a href="#Qemu简易教程-termux版本" class="headerlink" title="Qemu简易教程(termux版本)"></a>Qemu简易教程(termux版本)</h1><h2 id="Qemu是什么"><a href="#Qemu是什么" class="headerlink" title="Qemu是什么"></a>Qemu是什么</h2><p><em><strong>QEMU是一套由法布里斯·贝拉(Fabrice Bellard)所编写的以GPL许可证分发源码的模拟处理器软件，在GNU&#x2F;Linux平台上使用广泛。</strong></em></p>
+<hr>
+<h3 id="Qemu有什么用"><a href="#Qemu有什么用" class="headerlink" title="Qemu有什么用"></a>Qemu有什么用</h3><p><del><em><strong>让你在可以在任何平台上运行Qemu(废话)</strong></em></del></p>
+<hr>
+<h4 id="Qemu的安装"><a href="#Qemu的安装" class="headerlink" title="Qemu的安装"></a>Qemu的安装</h4><ol>
+<li>第一步</li>
+</ol>
+<ul>
+<li>安装termux</li>
+<li><code>pkg install root-repo unstable-repo</code></li>
+<li><code>pkg install x11-repo</code>(最重要)</li>
+<li><code>pkg install qemu-system-x86_64</code><del>(您能运行的保证)</del></li>
+</ul>
+<hr>
+<ol start="2">
+<li>第二步</li>
+</ol>
+<ul>
+<li>下载镜像 这里推荐(雪碧大佬的高速云盘<a target="_blank" rel="noopener" href="https://bbs.xb6868.com/d/4/7">https://bbs.xb6868.com/d/4/7</a>) 找一个随便下(大雾)</li>
+<li>手机安装xdsl xserver的APP，并启动。(百度都有)</li>
+</ul>
+<hr>
+<ol start="3">
+<li>第三步</li>
+</ol>
+<ul>
+<li>进入手机termux执行</li>
+</ul>
+<p><code>export DISPLAY=127.0.0.1：0</code><br><code>export PULSE_SERVER=tcp:127.0.0.1:4713</code><br><code>startxfce4</code></p>
+<hr>
+<ol start="4">
+<li>第四步</li>
+</ol>
+<ul>
+<li>切换到xsdl，有了termux的图形界面。进入终端。</li>
+</ul>
+<p><code>vim winxp.sh</code><br>然后哒</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs #!/bin/bash">qemu-system-x86_64 -hda /镜像的绝对路径 \<br> -m 2048 -netdev user,id=user.0\<br>  -usb -device usb-tablet<br>   -device ne2k_pci,netdev=user.0 \<br>    - vga cirrus -k en_us -smp 2 \<br>     -rtc base=localtime<br></code></pre></td></tr></table></figure>
+<hr>
+<ol start="5">
+<li>第五步</li>
+</ol>
+<ul>
+<li>保存，并执行。就可启动了，实测蓝牙键盘可用，指划鼠标也可用，OTG外接的鼠标也可用。</li>
+</ul>
+<hr>
+<ol start="6">
+<li>附上运行的图片(喜)<br><img src="https://www.helloimg.com/images/2022/08/03/Z0mR9X.jpg" srcset="/img/loading.gif" lazyload alt="运行XP"></li>
+</ol>
+<hr>
+<p><img src="https://www.helloimg.com/images/2022/08/03/Z0mGx9.jpg" srcset="/img/loading.gif" lazyload alt="运行XP"></p>
+<hr>
+<p><del><em><strong>本人是个Markdown语法小白(废物一个 不用鸟我)</strong></em></del>如有错误请多多包涵 图片来源于网络 最终解释权归网络所有</p>
+<h5 id="XZJ’-Blog-2022-2022-版权所有"><a href="#XZJ’-Blog-2022-2022-版权所有" class="headerlink" title="[XZJ’ Blog 2022 - 2022 | 版权所有]"></a>[XZJ’ Blog 2022 - 2022 | 版权所有]</h5>
                 
               </div>
             
@@ -288,6 +343,13 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E6%95%99%E7%A8%8B/">#教程</a>
+      
+    </div>
   
 </div>
 
@@ -297,8 +359,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>https://conquerorlei.github.io/posts/4a17b156/</div>
+      <div>Qemu简易教程</div>
+      <div>https://conquerorlei.github.io/posts/dc0fc43c/</div>
     </div>
     <div class="license-meta">
       
@@ -310,7 +372,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年1月6日</div>
+          <div>2022年8月3日</div>
         </div>
       
       
@@ -342,15 +404,15 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/posts/8a17c75b/" title="手机优化小寄巧">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">手机优化小寄巧</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
-                    
-                      <a href="/posts/8a17c75b/" title="手机优化小寄巧">
-                        <span class="hidden-mobile">手机优化小寄巧</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
                     
                   </article>
                 </div>
