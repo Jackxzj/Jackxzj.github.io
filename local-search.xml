@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title></title>
+    <link href="/posts/0/"/>
+    <url>/posts/0/</url>
+    
+    <content type="html"><![CDATA[<hr><h1 id="title-MIUI美你马教程date-2023-01-08tags-左香菱血仇（就素小小白）"><a href="#title-MIUI美你马教程date-2023-01-08tags-左香菱血仇（就素小小白）" class="headerlink" title="title:MIUI美你马教程date:2023.01.08tags:左香菱血仇（就素小小白）"></a>title:MIUI美你马教程<br>date:2023.01.08<br>tags:左香菱血仇（就素小小白）</h1><p>机子:chopin<br>环境:MIUI14虽然这篇文章实在12.5写出来的）<br>      magisk25.2</p><hr><p>tips:这篇文章全靠记忆（x<br>可能会有出错</p><hr><p>-1.状态栏歌词（xp模块)<br>  项目地址<a href="https://github.com/577fkj/StatusBarLyric">https://github.com/577fkj/StatusBarLyric</a><br>  食用方法:1.lsp内启用模块<br>             2.勾选作用域<br>             3.点击右下角那个齿轮打开模块<br>             4.打开总开关<br>             5.点击右上角三个点<br>             6.点击重启system UI<br>             7.点击确定，然后给root权限就行<br>             8.打开你的音乐软件，进入设置，打开状态栏歌词<br>tips：如果是网易云旧版没有状态栏歌词怎么办，向下滑，找到车载蓝牙歌词，打开就行</p><hr><p>-2.  </p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/posts/4a17b156/"/>
     <url>/posts/4a17b156/</url>
