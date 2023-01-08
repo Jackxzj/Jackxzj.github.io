@@ -5,8 +5,8 @@
   
   <entry>
     <title>MIUI美你马教程</title>
-    <link href="/posts/8a17c75b/"/>
-    <url>/posts/8a17c75b/</url>
+    <link href="/posts/fdf17f95/"/>
+    <url>/posts/fdf17f95/</url>
     
     <content type="html"><![CDATA[<h1 id="MIUI轻度美化"><a href="#MIUI轻度美化" class="headerlink" title="MIUI轻度美化"></a>MIUI轻度美化</h1><p>机子:chopin<br>环境:MIUI14虽然这篇文章实在12.5写出来的）<br>      magisk25.2</p><hr><p>tips:这篇文章全靠记忆（x<br>可能会有出错</p><hr><ul><li>1.状态栏歌词（xp模块)<br>项目地址:<a href="https://github.com/577fkj/StatusBarLyric">这素链接</a><br>食用方法:<br>   &gt;    1.lsp内启用模块<br>   &gt;    2.勾选作用域<br>   &gt;    3.点击右下角那个齿轮打开模块<br>   &gt;    4.打开总开关<br>   &gt;    5.点击右上角三个点<br>   &gt;    6.点击重启system UI<br>   &gt;    7.点击确定，然后给root权限就行<br>   &gt;    8.打开你的音乐软件，进入设置，打开状态栏歌词</li></ul><p> 看不懂没关系，<a href="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/e9449d509f6e220c4a7854725f4eb4931673110723.jpg">图片教程</a><br>tips：如果是网易云旧版没有状态栏歌词怎么办，向下滑，找到车载蓝牙歌词，打开就行</p><hr><ul><li>2.MiuihomeR<br><del><strong>miuihomer是miuihome的重制版(划掉)</strong></del><br>这个没什么可以讲了自行摸索<br>附赠一张效果图（喜<br><img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/62269e597cdc566dd5e3841d0be3878f1673111170.jpg" alt="这是图片" title="效果图"></li></ul><hr><ul><li>3.修改版桌面（需要核心破解下同）<br> <del><em><strong>如果想要实现堆叠后台那么就得安装修改版堆叠桌面</strong></em>（废话~~~<br> <img src="http://gchat.qpic.cn/gchatpic_new/0/0-0-43E590AD1EE400F6F97ECEAFD10F4FC6/0" alt="效果图" title="效果图"><br> <a href="http://gchat.qpic.cn/gchatpic_new/0/0-0-5F4D3978E690CFEAEC4007200BA0EA68/0" title="2">第二张效果图</a><br> 当然你可以配合miuihomer进行一个美化</del>*<em>（当然这也是废话</em>~~</li></ul><hr><ul><li>4.修改版系统界面组件<br>这个一般选酷安一位大佬做的修改版<br><a href="http://www.coolapk.com/u/22755116">大佬主页</a><br>tips:12.5别用新版本不然会活的透明背景的音量条（悲<img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/9b4a50a0283a30933d1f12a9dff011931673115207.jpg" alt="翻车图" title="无修高清翻车图"><br><img src="http://oss-cn-hangzhou.aliyuncs.com/public-cli/free/16ae4b30c5f10f2f31c69cd8986e1c5d1673115215.jpg" alt="车车" title="翻了"></li></ul><hr><ul><li>5.完美图标计划<br> 就素一个改图标的没什么好看的（<br> <del><strong>必竟我是为了凑字数</strong></del><br>项目地址:<a href="https://github.com/pzcn/Perfect-Icons-Completion-Project">这是链接</a><br>里面有非常多<del>（也不是很多）</del>的图标可供选择，ios的也有（喜<br><del><strong>- 6.实在写不下去了哎睡觉嘿嘿嘿</strong></del></li></ul>]]></content>
     
@@ -14,7 +14,7 @@
     
     <tags>
       
-      <tag>小小白优化技巧</tag>
+      <tag>小小白美化技巧</tag>
       
     </tags>
     
